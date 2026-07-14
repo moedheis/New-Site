@@ -1,0 +1,18 @@
+# robots.txt for https://moedheis.com
+# Moeketing (Moe Dheis) — Google & Facebook Ads for home service contractors
+
+User-agent: *
+Allow: /
+
+# Block common non-public / low-value paths (safe to keep even if unused yet,
+# prevents accidental indexing if these ever get created)
+Disallow: /admin/
+Disallow: /wp-admin/
+Disallow: /cgi-bin/
+Disallow: /tmp/
+Disallow: /temp/
+Disallow: /private/
+Disallow: /*.json$
+Disallow: /*?*utm_
+
+Sitemap: https://moedheis.com/sitemap.xml

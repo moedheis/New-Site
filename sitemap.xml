@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+  Sitemap for https://moedheis.com
+  Moeketing (Moe Dheis) — Google & Facebook Ads for home service contractors
+
+  NOTE ON STRUCTURE:
+  This is currently a single-page site, so only the homepage is listed as
+  a real, crawlable URL. Section anchors (#architecture, #calculator,
+  #receipts, #faq, #book) are NOT included as separate <url> entries —
+  Google explicitly ignores URL fragments in sitemaps and treats them as
+  the same page as the root URL, so listing them would be redundant and
+  could be flagged as low-value/duplicate content.
+
+  FUTURE SCALING:
+  When service-specific landing pages (e.g. /roofing, /hvac, /plumbing,
+  /remodeling) go live, add a <url> block for each one following the
+  pattern commented out at the bottom of this file. Only add a URL once
+  the page is actually published and returns a 200 status — sitemaps
+  should never contain placeholder or not-yet-live pages.
+-->
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+        xmlns:xhtml="http://www.w3.org/1999/xhtml">
+
+  <url>
+    <loc>https://moedheis.com/</loc>
+    <lastmod>2026-07-14</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>1.0</priority>
+  </url>
+
+  <!--
+  ===========================================================
+  FUTURE SERVICE LANDING PAGES (uncomment + update when live)
+  ===========================================================
+
+  <url>
+    <loc>https://moedheis.com/roofing</loc>
+    <lastmod>2026-07-14</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+
+  <url>
+    <loc>https://moedheis.com/hvac</loc>
+    <lastmod>2026-07-14</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+
+  <url>
+    <loc>https://moedheis.com/plumbing</loc>
+    <lastmod>2026-07-14</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+
+  <url>
+    <loc>https://moedheis.com/remodeling</loc>
+    <lastmod>2026-07-14</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  -->
+
+</urlset>
